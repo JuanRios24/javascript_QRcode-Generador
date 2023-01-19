@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENERADOR DE CODIGO QR</title>
+
+    <!-- CSS LOCAL -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- JS QR CODE - LIBRARY -->
+    <script defer src="./assets/js/qrcode.min.js"></script>
+
+    <!-- JS LOCAL -->
+    <script defer src="./assets/js/app.js"></script>
+</head>
+
+<body>
+    <!-- CONTENT-->
+    <div class="contenedor">
+        <form action="" id="formulario" class="formulario">
+            <input type="text" id="link" placeholder="Escribe el texto o url" />
+            <button class="btn">GENERAR QR</button>
+        </form>
+        <div id="contenedorQR" class="contenedorQR"></div>
+    </div>
+
+</body>
+
+</html>

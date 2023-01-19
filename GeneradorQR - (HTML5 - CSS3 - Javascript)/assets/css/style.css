@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    max-width: 98%;
+    width: 400px;
+    margin: 80px auto;
+}
+
+.formulario input[type='text']{
+    padding: 20px;
+    border: none;
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.formulario .btn{
+    width: 100%;
+    border: none;
+    background: rgb(0,0,0);
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+.formulario .btn:hover{
+    background: #3e14b2;
+}
+
+
+
+.contenedorQR{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
